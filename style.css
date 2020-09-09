@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container,
+.results {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 3px solid #20b262;
+    border-radius: 50px;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #20b262;
+    margin-bottom: 1rem;
+}
+
+.book-search {
+    width: 85%;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    font-size: 18px;
+}
+
+.btn-search {
+    padding: 1rem;
+    background-color: #20b262;
+    color: white;
+    font-weight: 600;
+    border: #20b262;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.book-title {
+    margin: 0.5rem 0;
+    color: firebrick;
+    line-height: 19px;
+}
+
+.book-author {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
